@@ -139,14 +139,14 @@ window.fcAskName = function (cur) {
     var url = (typeof input === 'string') ? input : (input && input.url) || '';
     var base = url.split('?')[0].split('/').pop();
     if (base === 'index.wasm') return engineResponse();
-    if (base === 'index.pck') return origFetch('game_data28.wasm', init);
+    if (base === 'index.pck') return origFetch('game_data29.wasm', init);
     return origFetch(input, init);
   };
 })();
 </script>
 <script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":4606912,"index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":""};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":4609712,"index.wasm":35376909},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":""};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
